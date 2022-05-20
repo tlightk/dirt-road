@@ -5,10 +5,10 @@ import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 export default function LocationCard(props) {
   return (
     <div className="LocationCard">
-      <img src={props.imageUrl} />
+      <img src={props.imageUrl} className="location-image" />
       <div className="card-info">
         <div className="location-container">
-          <FontAwesomeIcon icon={faLocationDot} />
+          <FontAwesomeIcon icon={faLocationDot} className="marker-icon" />
           <p className="card-location">{props.location}</p>
           <a href={props.googleMapsUrl}>View on Google Maps</a>
         </div>

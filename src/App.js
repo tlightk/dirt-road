@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      {locationCards}
+      <div className="cards-container">{locationCards}</div>
     </div>
   );
 }
