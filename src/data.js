@@ -19,7 +19,7 @@ export default [
     startDate: "12 Nov, 2022",
     endDate: "30 Nov, 2022",
     description: `Kaer Morhen (corruption of Elder Speech: Caer a'Muirehen, meaning Keep of the Elder Sea) is an old keep where witchers of the School of the Wolf used to be trained. It is located in the mountains of Hertch in the kingdom of Kaedwen, right off the Gwenllech river. The castle can only be reached by "The Witchers Trail", nicknamed "The Killer", which is easy to miss and encircles the keep.`,
-    imageUrl: "https://goo.gl/maps/W8m63HigZCFbBPVs6",
+    imageUrl: "https://i.pinimg.com/originals/cb/78/b4/cb78b4090505ce8bb383d97b5ba1a4b0.jpg",
   },
   {
     id: "3",

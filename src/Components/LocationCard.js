@@ -1,9 +1,10 @@
 import React from "react";
 
-export default function LocationCard() {
+export default function LocationCard(props) {
     return(
         <div className="LocationCard">
-            <h1>THIS IS LOCATIONCARD</h1>
+            <img src={props.imageUrl} />
+            <h2 classname="location-title">{props.title}</h2>
         </div>
     )
 }
