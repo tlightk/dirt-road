@@ -1,3 +1,28 @@
 .App {
   text-align: center;
 }
+
+.Navbar {
+  display: flex;
+  background-color: #f55a5a;
+  align-items: center;
+  justify-content: center;
+  height: 72px;
+  color: white;
+}
+
+.globe-icon {
+  padding-right: 10px;
+  font-size: 36px;
+}
+
+.navbar-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+
+  color: #ffffff;
+}
