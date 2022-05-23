@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  font-family: "Inter";
+  font-style: normal;
 }
 
 .Navbar {
@@ -9,6 +11,7 @@
   justify-content: center;
   height: 72px;
   color: white;
+  margin: -10px;
 }
 
 .globe-icon {
@@ -17,8 +20,6 @@
 }
 
 .navbar-title {
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 18px;
@@ -38,7 +39,7 @@
   display: flex;
   width: 720px;
   padding: 40px;
-  
+  border-bottom: 1px solid rgba(83, 81, 83, 0.1);;
 }
 
 .location-image {
@@ -60,6 +61,40 @@
 }
 
 .marker-icon {
-  color: #F55A5A;
+  color: #f55a5a;
   padding-right: 10px;
+}
+
+.card-location {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.17em;
+}
+
+.maps-link {
+  font-weight: 400;
+  font-size: 12px;
+  text-decoration-line: underline;
+  color: #918e9b;
+  padding-left: 10px;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #2b283a;
+  margin-top: -5px;
+}
+
+.card-date {
+  font-weight: 700;
+  font-size: 14px;
+  color: #2b283a;
+}
+
+.card-description {
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+color: #2B283A;
 }
